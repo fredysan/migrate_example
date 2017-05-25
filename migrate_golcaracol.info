@@ -1,0 +1,35 @@
+name = "Gol Caracol Migration"
+description = "Gol Caracol Migration."
+package = "Migration"
+core = 7.x
+dependencies[] = taxonomy
+dependencies[] = image
+dependencies[] = migrate
+dependencies[] = migrate_d2d
+dependencies[] = list
+dependencies[] = number
+
+;node_reference is useful but not required
+;dependencies[] = node_reference
+
+files[] = migrate_caracol.migrate.inc
+
+files[] = file_fid.inc
+files[] = d/destination-term-leagues.inc
+
+files[] = node.inc
+files[] = term.inc
+files[] = file.inc
+files[] = node_articles.inc
+files[] = node_articles_related.inc
+files[] = node_galleries.inc
+files[] = node_videos.inc
+files[] = node_videos_ooyala.inc
+files[] = node_surveys.inc
+files[] = images.inc
+files[] = images_article2.inc
+files[] = images_gallery.inc
+files[] = images_video.inc
+files[] = terms_tags.inc
+files[] = terms_section_tags.inc
+files[] = terms_section_ligas.inc
